@@ -30,11 +30,9 @@ h2{
 p{
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    color:darkgoldenrod  
-    
-}
-
-footer a{
+    color:darkgoldenrod;
+}  
+    .sociallinks{
     text-decoration: none;
 }
  .hero-img {
