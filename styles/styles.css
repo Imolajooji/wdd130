@@ -3,7 +3,7 @@ nav {
     padding: 10px;
 }
 nav a {
-    color:white;
+    color a:white;
     display: block;
     padding: 20px;
 }
@@ -29,7 +29,8 @@ aside {
     border: 1px solid rgba(0, 0, 0, 0.2); /* */
     padding: 1rem;
     background-color: #eee;
-    color: #333:#333text-align: center;
+    color: #333;
+    text-align: center;
 }
 aside img {
     width: 200px;
@@ -46,6 +47,3 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-
-
-
