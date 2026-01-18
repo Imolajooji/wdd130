@@ -21,6 +21,26 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px sold rgb(0 0 0/10%);
+    padding: 10px;
+    box-shadow: 0 0 30px #333;
+}
+
+nav {
+    background-color: #abe;
+    padding: 10px;
+
+}
+
+nav a {
+    color: #abe;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+h1 {
+    color: cadetblue;
 }
 
 p {
