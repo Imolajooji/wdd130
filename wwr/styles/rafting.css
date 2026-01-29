@@ -2,7 +2,7 @@
     --primary-color: steelblue;
     --secondary-color: white;
     --accent1-color: black;
-    --accent2-color: darkorange;
+    --accent2-color: #C04000;
     --heading-font: Arial, Helvetica, sans-serif;
     --body-font: Georgia, "Times New Roman", serif;
 }
@@ -39,8 +39,11 @@ h1 {
     color: var(--accent2-color);
 }
 
+p {
+    color: var(--accent1-color);
+}
+
 nav,
-p,
 section,
 article {
     margin: 16px;
@@ -68,6 +71,7 @@ nav a {
     text-decoration: none;
     margin: 0 8px;
     display: inline-block;
+    color: var(--secondary-color);
 }
 
 .hero {
@@ -103,7 +107,7 @@ nav a {
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(249, 233, 214, 0.9);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 .hero article img {
