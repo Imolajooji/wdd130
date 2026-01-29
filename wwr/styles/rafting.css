@@ -1,14 +1,10 @@
 :root {
-    --primary-color: #3993DD;
-    /* bright blue */
-    --secondary-color: #90F3FF;
-    /* light aqua */
-    --accent1-color: #ADFC92;
-    /* soft green */
-    --accent2-color: #FAC05E;
-    /* warm orange */
-    --heading-font: "Roboto", sans-serif;
-    --body-font: "Raleway", sans-serif;
+    --primary-color: steelblue;
+    --secondary-color: white;
+    --accent1-color: black;
+    --accent2-color: darkorange;
+    --heading-font: Arial, Helvetica, sans-serif;
+    --body-font: Georgia, "Times New Roman", serif;
 }
 
 * {
@@ -27,7 +23,7 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -37,12 +33,35 @@ h2 {
     color: var(--primary-color);
 }
 
+h1 {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    color: var(--accent2-color);
+}
+
 nav,
 p,
 section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
@@ -68,7 +87,7 @@ article {
     transform: translateX(-50%);
     font-weight: 400;
     font-size: 40px;
-    color: chocolate;
+    color: var(--accent2-color);
     padding: 5px;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -83,7 +102,8 @@ article {
     width: 80%;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(249, 233, 214, 0.5);
+    background-color: rgba(249, 233, 214, 0.9);
+    color: var(--accent1-color);
 }
 
 .hero article img {
@@ -92,4 +112,11 @@ article {
     margin-left: 10px;
     border-radius: 50%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 16px;
 }
