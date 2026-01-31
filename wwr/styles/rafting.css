@@ -153,4 +153,33 @@ nav a {
 }
 
 .gallery figcaption {
-    margin-top
+    margin-top: 0.5rem;
+    /* ✅ fixed with unit */
+    font-style: italic;
+    color: var(--accent2-color);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 16px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 1rem;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.socialmedia img {
+    width: 24px;
+    height: 24px;
+}
