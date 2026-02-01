@@ -15,9 +15,13 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
     background-color: #fff;
     line-height: 1.6;
+}
+
+main p,
+footer p {
+    color: var(--accent1-color);
 }
 
 header,
@@ -38,10 +42,6 @@ h1 {
     color: var(--accent2-color);
 }
 
-p {
-    color: var(--accent1-color);
-}
-
 header {
     display: grid;
     grid-template-columns: 200px auto;
@@ -53,6 +53,14 @@ header {
 
 header img.logo {
     max-width: 100%;
+}
+
+header p,
+header h1,
+header h2,
+header li,
+header a {
+    color: var(--secondary-color);
 }
 
 nav ul {
@@ -174,10 +182,4 @@ footer {
 .socialmedia img {
     width: 24px;
     height: 24px;
-
-}
-
-header,
-header * {
-    color: var(--secondary-color) !important;
 }
