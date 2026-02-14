@@ -288,7 +288,9 @@ legend {
 }
 
 .profiles img {
-    width: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
