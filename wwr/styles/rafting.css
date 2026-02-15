@@ -295,6 +295,59 @@ legend {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cta-link {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-link:hover {
+    background-color: var(--primary-color);
+}
+
+/* Grid Layout Section */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.grid-layout img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.grid-layout h3 {
+    color: var(--accent2-color);
+    margin-top: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .contact-layout {
         flex-direction: column;
