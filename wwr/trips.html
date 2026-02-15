@@ -27,12 +27,71 @@
     <main>
         <h1>Our Adventure Trips - Prancing Seahorse Water Rafting</h1>
         <p>We offer a variety of rafting adventures designed for thrill-seekers, families, and
-            nature lovers...</p>
+            nature lovers. Each trip includes professional guides, safety equipment, and
+            unforgettable experiences.</p>
 
-        <!-- Gallery and Equipment sections remain as you have them -->
+        <!-- Gallery -->
+        <section class="gallery">
+            <figure>
+                <img src="images/trip-river.jpg" alt="River Expedition scenic rafting trip">
+                <figcaption>River Expedition – A scenic journey through calm waters and lush
+                    forests.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/trip-rapids.jpg" alt="Rapids Challenge rafting adventure">
+                <figcaption>Rapids Challenge – Conquer Class III and IV rapids with expert guidance.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/trip-camping.jpg" alt="Camping Adventure overnight trip">
+                <figcaption>Camping Adventure – Combine rafting with overnight camping under the
+                    stars.</figcaption>
+            </figure>
+        </section>
+
+        <!-- Equipment Section -->
+        <section class="history-layout">
+            <div>
+                <img src="images/rafting-helmet.jpg" alt="Safety Helmets provided for rafting">
+                <p>Safety helmets and life vests are provided for all participants.</p>
+            </div>
+            <div>
+                <img src="images/rafting-paddles.jpg" alt="Durable Rafting Paddles">
+                <p>Durable paddles designed for both calm waters and challenging rapids.</p>
+            </div>
+            <div>
+                <img src="images/rafting-campsite.jpg" alt="Camping Gear for overnight trips">
+                <p>High-quality camping gear available for overnight trips.</p>
+            </div>
+        </section>
 
         <!-- Booking Form -->
-        <form> ... (form code above) ... </form>
+        <form>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <fieldset>
+                <legend>Select Trip Type:</legend>
+                <label for="river">
+                    <input type="radio" id="river" name="trip" value="river"> River Expedition
+                </label>
+                <label for="rapids">
+                    <input type="radio" id="rapids" name="trip" value="rapids"> Rapids Challenge
+                </label>
+                <label for="camping">
+                    <input type="radio" id="camping" name="trip" value="camping"> Camping Adventure
+                </label>
+            </fieldset>
+
+            <label for="message">Special Requests:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <label for="gear">
+                <input type="checkbox" id="gear" name="gear"> I need camping gear provided
+            </label>
+
+            <button type="submit">Book My Trip</button>
+        </form>
 
         <!-- Call to Action -->
         <section class="cta">
@@ -44,9 +103,9 @@
     <footer>
         <p>©2026 🌴 Prancing Seahorse Water Rafting 🌴 Imola Jooji 🌴 Abuja, Nigeria</p>
         <nav class="socialmedia">
-            <a href="#"><img src="images/facebook_icon.png" alt="Facebook"></a>
-            <a href="#"><img src="images/twitter_icon.png" alt="Twitter"></a>
-            <a href="#"><img src="images/instagram_icon.png" alt="Instagram"></a>
+            <a href="#"><img src="images/facebook_icon.png" alt="Follow us on Facebook"></a>
+            <a href="#"><img src="images/twitter_icon.png" alt="Follow us on Twitter"></a>
+            <a href="#"><img src="images/instagram_icon.png" alt="Follow us on Instagram"></a>
         </nav>
     </footer>
 </body>
