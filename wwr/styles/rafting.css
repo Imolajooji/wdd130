@@ -111,20 +111,16 @@ nav a {
     border-radius: 10px;
     background-color: rgba(249, 233, 214, 0.9);
     color: var(--accent1-color);
-    text-align: center;
-    /* center content inside the article */
 }
 
+/* Fix spacing between paragraph and button */
 .hero article p {
     margin-bottom: 1rem;
-    /* space between paragraph and button */
 }
 
 .hero article .cta-link {
     display: inline-block;
-    /* makes it behave like a button */
     margin-top: 0.5rem;
-    /* extra spacing above */
     background-color: var(--accent2-color);
     color: var(--secondary-color);
     padding: 0.7rem 1.5rem;
