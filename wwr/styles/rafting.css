@@ -111,16 +111,33 @@ nav a {
     border-radius: 10px;
     background-color: rgba(249, 233, 214, 0.9);
     color: var(--accent1-color);
+    text-align: center;
+    /* center content inside the article */
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-    margin-left: 10px;
-    border-radius: 50%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+.hero article p {
+    margin-bottom: 1rem;
+    /* space between paragraph and button */
 }
 
+.hero article .cta-link {
+    display: inline-block;
+    /* makes it behave like a button */
+    margin-top: 0.5rem;
+    /* extra spacing above */
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero article .cta-link:hover {
+    background-color: var(--primary-color);
+}
+
+/* History Layout */
 .history-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -135,6 +152,7 @@ nav a {
     border-radius: 8px;
 }
 
+/* Gallery */
 .gallery {
     display: flex;
     justify-content: space-between;
@@ -160,6 +178,7 @@ nav a {
     color: var(--accent2-color);
 }
 
+/* Footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -184,6 +203,7 @@ footer {
     height: 24px;
 }
 
+/* Contact Info */
 .contact-info {
     text-align: center;
     margin: 2rem auto;
@@ -264,6 +284,7 @@ legend {
     color: var(--secondary-color);
 }
 
+/* Team */
 .team {
     text-align: center;
     margin: 3rem auto;
@@ -315,19 +336,6 @@ legend {
 .cta {
     text-align: center;
     margin: 2rem 0;
-}
-
-.cta-link {
-    background-color: var(--accent2-color);
-    color: var(--secondary-color);
-    padding: 0.7rem 1.5rem;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.cta-link:hover {
-    background-color: var(--primary-color);
 }
 
 /* Grid Layout Section */
